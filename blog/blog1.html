@@ -1,0 +1,103 @@
+<DOCTYPE! html>
+<head><title>Blog</title>
+
+</head>
+<link type='text/css' rel="stylesheet" href="blogggstyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<body class="background">
+<div class="header">
+  <h2>Mini XYZ</h2>
+   <ul class="navibar">
+  <li><a  href="../index.html"  >Home</a></li>
+  <li><a class="active" href="blog1.html"  >Blog</a></li>
+  <li><a  href="../gallery/gallery.html"  >Gallery</a></li>
+  <li><a href="../contact/contactus.html" >Contact</a></li>
+  <li><a href="../about/aboutus.html"  >About</a></li>
+  <li style="float:right"><div id="myOverlay" class="overlay">
+  <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  <div class="overlay-content">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+<button class="openBtn" onclick="openSearch()" style="margin-top:10px;"><i class="fa fa-search icon"></i>Search...&emsp;&emsp;&emsp;&emsp;</button>
+
+<script>
+function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script></li>
+</ul>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <img class="fakeimg" src="../image/blogg1.png" style="height:250px;" alt="Pics of Girls wearing tredy shirts" title="Pics of Girls wearing tredy shirts">
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <img class="fakeimg" src="../image/blogg2.jpg" style="height:250px;">
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+
+<div class="rightcolumn">
+    
+	<div class="card">
+      <h2>About Us</h2>
+      <img class="fakeimg" src="../image/aboutme.jpg" style="height:100px;"  alt="Cartoonic pic of Girls" title="Cartoonic pic of Girls"/>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+	<div class="card">
+	<div class="address">
+      <h3 id="head" >OFFICE IN PAKISTAN</h3>
+      Address line 1 <br/>Phone +434873254532</br/> Fax +432875498732 <br/>email hsagd@gmail.com
+	  <h3>OFFICE IN USA</h3>
+      Address line 2 <br/>Phone +49876598574365</br/> Fax +487059864367 <br/>email jhdsjsah@gmail.com
+
+	  
+	 </div> 
+	 </div>
+	
+    <div class="card">
+      <h3>Popular Post</h3>
+      <ul class="post">
+	  <li class="un">Template:Sticky</li><br/><p class="un-order">13 views| 0 comments</p>
+	  <li class="un">Post format:'Audio'</li><br/><p class="un-order">8 views| 1 comments</p>
+	  <li class="un">Format Post:Standard</li><br/><p class="un-order">18 views| 5 comments</p>
+	  </ul>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <div class="icon"><a href="facebook.com"><i class="fa fa-facebook-f"></i></a>&ensp;
+	  <a href="twitter.com"><i class="fa fa-twitter"></i></a>&ensp;<a href="instagram.com"><i class="fa fa-instagram"></i></a>&ensp;
+	  <a href="gmail.com"><i class="fa fa-at"></i></a>&ensp;<a href="youtube.com"><i class="fa fa-youtube"></i></a>
+	  </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+ <p> © 2018 Copyright: <a href="minixyz.com">minixyz.com</a></p>
+ <p style="text-align:center"><a href="../index.html" >Back to home |</a><a href="../signin/signin.html">SIGN IN</a></p>
+</div>
+</body>
+</html>
